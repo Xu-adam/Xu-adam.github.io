@@ -3,10 +3,10 @@ alert("Welcome to my test page!")
 let myImage = document.querySelector("img");
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/image-1.webp") {
-    myImage.setAttribute("src", "images/image-2.webp");
+  if (mySrc === "image-1.webp") {
+    myImage.setAttribute("src", "image-2.webp");
   } else {
-    myImage.setAttribute("src", "images/image-1.webp");
+    myImage.setAttribute("src", "image-1.webp");
   }
 };
 
